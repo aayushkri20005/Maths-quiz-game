@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Math Quiz  Game</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <div class="background">
@@ -13,7 +14,7 @@
         <h2>Score -> <span id="score">0</span></h2>
         <h3 id="question">Q. what is your name</h3>
         <form id="questionForm" onsubmit="checkAnswer(event)">
-          <input required id="answerInput" name="answer" type="number" />
+          <input required id="answerInput" name="ans" type="number" />
           <button class="primary-btn" type="submit">Submit</button>
         </form>
       </div>
