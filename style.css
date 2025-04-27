@@ -86,10 +86,11 @@ place-items: center;
     
     }
     .box h3 {
-
         color: rgb(255, 255, 255);
         font-size: 25px;
-        line-height: 15px;
+        line-height: 20px;
+        /* margin: 2px; */
+        
     }
     .primary-btn{
         font-size: 20px;
