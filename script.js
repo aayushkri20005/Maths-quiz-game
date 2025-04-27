@@ -33,7 +33,7 @@ score++;
 else{
     score--;
 }
-scorele.innerText=score;
+scorele.innerText=score; 
 event.target.reset();
 showq();
 }
